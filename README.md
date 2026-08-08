@@ -2,53 +2,41 @@
 
 材料科学の研究支援ツールと、ブラウザで動くインタラクティブ作品を制作しています。
 
-## このGitHubの構成
+## 公開しているもの
 
-公開作品は、中心リポジトリ **[nv-dft-viewer](https://github.com/kyasshu/nv-dft-viewer)** にまとめています。  
-このリポジトリの中を、次の2つの入口に分けています。
+公開作品は **[NV Research App](https://github.com/kyasshu/nv-dft-viewer)** にまとめています。  
+NVセンター研究に関する情報とツールを、目的に合わせて選べるアプリです。
 
 ```text
-nv-dft-viewer
-├─ 研究・可視化ツール
-│  └─ NVセンターの構造、DFT / NEB計算用データ、解析手順
-│
-└─ ブラウザ・ミニゲーム集
-   ├─ Asteroid Runner 3D
-   ├─ ころころ工場
-   ├─ 走る特訓
-   ├─ ジャンプリズム
-   ├─ 刹那の見切り
-   └─ 四色記憶
+NV Research App
+├─ 研究計画
+│  └─ 目的、仮説、検証の流れを整理
+├─ シミュレーション
+│  ├─ DFT / NEB：結晶再構成
+│  ├─ PIC-MCC：電子照射輸送
+│  └─ Rate model：NV形成量
+├─ 参考文献
+│  └─ 研究の根拠となる資料
+├─ 装置操作マニュアル
+│  └─ 実験装置の操作手順
+└─ ミニゲーム集
+   └─ JavaScript、Canvas、Three.jsの6作品
 ```
 
 ## 初めて見る方へ
 
-次の順番で見ると、全体を把握できます。
+1. **[NV Research Appを開く](https://kyasshu.github.io/nv-dft-viewer/)**  
+   最初の画面から「用途別メニュー」を開きます。
 
-1. **[プロジェクトのトップページ](https://kyasshu.github.io/nv-dft-viewer/)**  
-   研究テーマと、公開している機能の全体像を確認できます。
+2. **見たい用途を選ぶ**  
+   研究計画、シミュレーション、参考文献、装置マニュアル、ミニゲームに分かれています。
 
-2. **[研究・可視化ツール](https://kyasshu.github.io/nv-dft-viewer/)**  
-   ダイヤモンド中のNVセンター形成候補を、DFT / NEB計算へつなげるためのモデルと可視化を掲載しています。
+3. **[ソースコードとREADMEを見る](https://github.com/kyasshu/nv-dft-viewer)**  
+   実装内容、研究上の前提、ファイル構成、実行方法を確認できます。
 
-3. **[ブラウザ・ミニゲーム集](https://kyasshu.github.io/nv-dft-viewer/pages/minigames.html)**  
-   JavaScript、Canvas、Three.jsで制作した6作品を、選択画面からそのままプレイできます。
+## 主な技術
 
-4. **[ソースコードとREADME](https://github.com/kyasshu/nv-dft-viewer)**  
-   実装内容、ファイル構成、使用技術、実行方法を確認できます。
-
-## それぞれの役割
-
-| ページ | 内容 | 見てほしい点 |
-| --- | --- | --- |
-| プロジェクトトップ | 研究と制作物の総合入口 | 全体像とページ構成 |
-| 研究・可視化ツール | NVセンター、DFT / NEB関連 | 研究内容をWeb上で整理・可視化する力 |
-| ミニゲーム集 | 3D、Canvas、操作型コンテンツ | UI設計、ゲームロジック、タッチ対応 |
-| GitHubリポジトリ | ソースコードと説明 | 実装方法、技術選定、制作過程 |
-
-## 使用技術
-
-- Web: HTML, CSS, JavaScript, Canvas API, Three.js, WebGL
-- Programming: Python, JavaScript
-- Scientific computing: DFT / NEB、Quantum ESPRESSO
+- Research: DFT / NEB、Quantum ESPRESSO、PIC-MCC、形成量モデル
+- Programming: Python、JavaScript
+- Web: HTML、CSS、Canvas API、Three.js、WebGL
 - Delivery: GitHub Pages、静的Webアプリ
