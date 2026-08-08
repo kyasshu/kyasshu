@@ -1,23 +1,33 @@
 # 小川慶介 / Keisuke Ogawa
 
-GitHub: [@kyasshu](https://github.com/kyasshu)
+材料科学の研究支援ツールと、ブラウザで動くインタラクティブ作品を制作しています。  
+「何を作ったか」だけでなく、目的・操作方法・実装内容が分かる形で公開しています。
 
-ブラウザゲームと科学技術の可視化ツールを制作しています。  
-Vanilla JavaScriptで完結する軽量なWebアプリから、Three.jsによる3D表現、PythonとQuantum ESPRESSOを使う研究モデルまで取り組んでいます。
+## まず見てほしいもの
 
-## Featured projects
+### 1. NV Center DFT Model Viewer — 研究・可視化ツール
 
-| Project | 内容 | 技術 | Demo |
-| --- | --- | --- | --- |
-| [Asteroid Runner 3D](https://github.com/kyasshu/asteroid-runner-3d) | 宇宙船で隕石帯を進む3Dアクションゲーム | Three.js, WebGL, JavaScript | [Play](https://kyasshu.github.io/asteroid-runner-3d/) |
-| [NV Center DFT Model Viewer](https://github.com/kyasshu/nv-dft-viewer) | NVセンター形成候補のDFT / NEB研究モデルと可視化 | Python, Quantum ESPRESSO, HTML | [View](https://kyasshu.github.io/nv-dft-viewer/) |
-| [ころころ工場](https://github.com/kyasshu/nv-dft-viewer) | 研究アプリ内へ統合したコンベア仕分けパズル | Canvas API, Pointer Events, JavaScript | [Play](https://kyasshu.github.io/nv-dft-viewer/pages/korokoro-factory.html) |
+ダイヤモンド中のNVセンター形成候補を、DFT / NEB計算へつなげるための研究モデルと可視化ツールです。
 
-## Skills
+- Pythonで計算用データの作成・整理を補助
+- Quantum ESPRESSO向けの入力と解析手順を管理
+- 構造や計算内容をブラウザ上で確認可能
 
-- Web: HTML, CSS, JavaScript, Canvas API, Three.js
+[デモを見る](https://kyasshu.github.io/nv-dft-viewer/) ・ [ソースコード](https://github.com/kyasshu/nv-dft-viewer)
+
+### 2. ブラウザ・ミニゲーム集 — Web制作
+
+JavaScript、Canvas、Three.jsを使った小規模ゲームを、1つの選択画面から遊べるようにまとめています。
+
+収録作品：Asteroid Runner 3D、ころころ工場、走る特訓、ジャンプリズム、刹那の見切り、四色記憶
+
+[ミニゲーム集を開く](https://kyasshu.github.io/nv-dft-viewer/pages/minigames.html) ・ [ソースコード](https://github.com/kyasshu/nv-dft-viewer)
+
+## 使用技術
+
+- Web: HTML, CSS, JavaScript, Canvas API, Three.js, WebGL
 - Programming: Python, JavaScript
-- Scientific computing: DFT / NEBモデル、Quantum ESPRESSO向け入力・解析補助
+- Scientific computing: DFT / NEB、Quantum ESPRESSO
 - Delivery: GitHub Pages、静的Webアプリ
 
-各リポジトリのREADMEに、作品の目的、実装上の工夫、使用技術、実行方法をまとめています。
+各ページから実際に操作できます。詳しい目的、工夫した点、実行方法はリポジトリ内のREADMEにまとめています。
