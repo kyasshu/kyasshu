@@ -1,7 +1,6 @@
 # 小川慶介 / Keisuke Ogawa
 
-GitHub: [@kyasshu](https://github.com/kyasshu)  
-Portfolio: [kyasshu-portfolio.kyasshu.chatgpt.site](https://kyasshu-portfolio.kyasshu.chatgpt.site)
+GitHub: [@kyasshu](https://github.com/kyasshu)
 
 ブラウザゲームと科学技術の可視化ツールを制作しています。  
 Vanilla JavaScriptで完結する軽量なWebアプリから、Three.jsによる3D表現、PythonとQuantum ESPRESSOを使う研究モデルまで取り組んでいます。
